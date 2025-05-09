@@ -1,1 +1,113 @@
-<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;max-width:60rem;padding-left:1.5rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{font-size:1.5rem;font-weight:500;line-height:2.25rem}@media (width <= 720px){.h2{font-size:1.25rem;line-height:1.5rem}}#challenge-error-text{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme:dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt={cvId: '3',cZone: "claude.ai",cType: 'managed',cRay: '93d2f86599df3910',cH: 'MS5ZV103S9eYiLST4w6yFCREDgbOI.kgVF4JInQ0JiE-1746812304-1.2.1.1-YU3qoUsUp3Zes13JxV6xZlnpoVeIGrRPUOOH7MsIpGOa_7fdy_7PwF5TyWUBoZrI',cUPMDTk: "\/artifacts\/readme-md?__cf_chl_tk=AVtGBm2b.5NavA.6aVRP68_Rp1B_MMLFlS0weM5SprY-1746812304-1.0.1.1-zu3MJLDLoNfOPdY5EV6TKcWTRUV1fsGc6IgPS2n1WIw",cFPWv: 'b',cITimeS: '1746812304',cTplC: 0,cTplV: 5,cTplB: 'cf',fa: "\/artifacts\/readme-md?__cf_chl_f_tk=AVtGBm2b.5NavA.6aVRP68_Rp1B_MMLFlS0weM5SprY-1746812304-1.0.1.1-zu3MJLDLoNfOPdY5EV6TKcWTRUV1fsGc6IgPS2n1WIw",md: "YJJ.ucnHsKsg9HTbts1o8omLrzMpDC.aCdKG07ZU8No-1746812304-1.2.1.1-OAtN4lXT7zPE5ioM5jV0eh9qUhcN8v45N9BD6A.O07qvWWchtO_QrOOwBv2ErEAsDqi__nHsUf18MpOZ2XJFHOUiC2F0cjnjqL4id5yGL6AJF88PpN6jZ6X4XnbFhMW1SHR.2iQACOhWoK0mb_8ZIGM4fifUfBngHda_NQ8E0bpRgedWn.YQ8VLMjY3sivBGSeIVzBkO13jYaQuqyByW7IHa2Bp_0KnUVOh3pF.MoGgAnoAW8R4tsqJwpl9iZL7c8gfivUJJRNMfGvpWB56VQQA8_JRkl5FKXE8KuwSG9Oydino.oDbD52dbj7I_bdI8pE6XJ6FMH_ijmJGcsW2xLEkKIoQAHtggvRsEw22lSb5Eg_jtoHRuv8WwxONUwmvz6NU41u1S.HXVX3tWnLAPf2S_s.oWJVD7ePrndyBm7nHkI2r.gLqAaAAEDoQZ5qFW2YW1dtNi2PCFAx_gUHBVujS5Tu7QGg8rpOzmGbiEPKeoAwsIE3J8_TZB28WJAm4siGAnZPqcIlskKDOr7ETtKeVMVhZ83E3ZfCvnOZi9NRcm.NFeJEXhrHs7mO.28oSLfkhnPsZtLaXc_A2zi4ukgBTMGXbrSqa1s9wCPuckrdICuCRNAoYrHC4GXe4PkLRggIwhRBV2Uv9WfsmxtB9olOTnvTJh.4HiBJ0QDx7hsltqPGgbGnPQCsLzgbvnWl_CYig2x2hDman4IWKwDTP62LMXyC.sBkofOLkmwiUSrDzxhevVFDdgPdXVE7p4vOYJNCqN6NYv2_JKMX12wtMx_TcJdauf4s0UYa._vaQsrmjc6PrwRHTNZXVH_GU8rvPF.vouyRt1UduTQldhQdZedxI5zw0qcQ_NcFiYqpNrYB0LeiR9UsAY349YXJpEwog7QAzcXz4JoqZdhGz9sbIblHmnzIJJOF0LHihbuccOY3ykbfEQw8446HJzuhlTQPwy",mdrd: "23vpw_zUAm9A__v7R6phqqJMt8hEy6VsfbCwRXjEyc8-1746812304-1.2.1.1-3xbLHsw79Z_63ZD1k1pEGZK1q2aOM_lWf_gGY0paePZ5EO2r.OMGJqX2uwiE6BJIOD3v6Dm8ONcGS7wCiE8_.S1nReQDFL_cc2jEHbiD3sqLS4qcFRYg8ksPUXeeiU7wLoENY5aLkVV1B0Xcbof58RxYakEVL3xFbH3y2yDK2liCK.PPg893_HhfQGZoZH_8IfQfK_HK0LMV6pA8wSg.F0dlZsgTLWPkqNgkzBeAWwMblCOprgAcsyqOB_vk3bXUCf1oyd9kERLaBIVD3HhUxKBSB7bgNSOk8Lissdy4w8sdYXxcSrrZIRunftAPu6JeUSAWZ2v6aKgvJaB90_vfhw1k9W7FfWpqSA2u8PVfYFhJdsXvHuYk23M4dAfrX6yC9Wc9EsVew8RbVI5gS48KTUFGraYZGXRvU8OmB20ep1hFlqdQIEOgAEACWpDsaP5tEj.uIitvXrpNxzBQ8cqjZYt.NVcf_dfAVsMAUqDpFFztG6ahytoWW3.4VkF9Noe_A9BkVsVC3TSlzuj9TG.u6BOYOLoR8SSwQuexf0cTKZ3M5aY104MMdCA8HlkveIhuwit.L8UQUQnPzbUfq9Fj4YgJoAZKbi3xcXqiN0WQsNpc13t_K84VsOvxSw8hUtgnXmNej2hoxy2oSFR8mpnvGct6HyYlTTMnvAITd08Gm7AaHXGksigTxupBAIaMVNcRtQfTOoFIZ5QTAgcAmLDNMHzd8hMHf_5MWlHoBwGZXw1Wv4eBx6wtYDX2.K_h8etgg2kZhQxPXHiswAlSqMNQmj7V2WFG3fTZBlgYRPvRSM8b3ES5QZ4sAIpPXpvcUBZm2JMxAKeveVnhr_hoLTMGhU0szMzNovF_DedH2Deue0jB7P1Hg97_HKkPWUfWNrRtWvaL7pFOZpW3cTpyEW_2.AXvuVyZidZZhgV5T3svcgoI0.MUBoWec9GvwVFy_caw3Zb3Q3rLGgiMDw.qOFJ8tB8DqzIBg4sVLx3idcN5bQZy9H5KjeUmjXOMKwJZYD5pQb7Uu289orEtxgBijAaYkufhbRu94gNUb9kbesb_UIOB1MXIRk3X3XMHJ8AnZqlmbHpXgATVc.c.vfsI5I0RwV3SEyY2eMfUXQZauHQ39LCu17Ty.8qj9OtIiUzc2SajszLGbxuZFA3mjruATPaTOK6WF2vjUvOYdODvA8TPi2Hsoj0MCO7ZmyRmpsJdB_2t549xxdQhtks9YEwdNMN2pqI_Ay.Mkns0eJnPQG80bDArZQUX8n37SRUistB4mlVVF5E66pYdDYZka9BRLPEzmIlp6JPELQqBa3knWAHC4yaNvcs6Y.EXFJ9SZtODTkPuSr7jPPamEsUhFIz5ZAkeW1g53HiwF0WxX84Hnh0PTjYYEdcNi2.B_iPRZgmX9g4abqlpgwberU3UTaqxp.BwhhW28qCnxPc_gSn0mMkON.qVM9MGb3CN8_EzF6F4HB4C6yyCrkksXsmoeuuSo2UrG.ZwuaeE.cEKvVwE2K3wRWHdXxdVa8b8PpOoh9Ovkn6kekCQAOVz1.TGRbCyFPDbR.MT4eNSiHDx3tTn.BTGKoBex8cIirgLh3EkAG92EobbaiiwH.EWV_Bel4CdkceUSsMwI.flLh58bFS1Pmx3dzE1PAv92WogrPf_smcE1Tgtx80kbGxHhv.i70i.sjphwgOW6NNLXqJUzs6vVMIA0F2Y7GNRBKap2fDXCTN.BKFDIisq6WWUZMjU_Ps_un6SYFjXltoe_delvjDidleFUM0QehLGArIGoqFhdiFoJ2ryrbMTJvGHQAnqOmVt.qxWL_YTnsL3Fy4chrwP3CyublxIrUm_S9jNk2CyMql1_xFFZSSDoSxOtyCicIBkdAwbDXUsu691zC2nPtezJFsXsopI8qc9fqN5XzYh6tw39DxBGZP4kcdmm1Ikr93rhFpvX4XiF86FxPC0EekP_mExct4OcOmKaUjsuyn7tU0gBt5OkEIH2y2nS_7npXXl_pnQ8VxHUhjVLLDv95mxEeEbxFCL00p4Q5.p69DNaQX6PrkhpVWNSftRRLwI6fu3lx89nwTZK9xAmyHlodo3.hW2R1wz7bLLmEBP8Riaxp.uD8XQsWDFFOUdULXIs_lx7nyMdyvZYiYvCkoAQXeoSPqgsUB1RfRsAQo2ZDp7_qaGlJv0fEG7JXilGSQgUXfGtfPWM1Ba_DzhVzv1SdGaSgPKikNKcJVFQTN_fB1DZgD.StiA3jFCgasm942PP.766VQEUCm1jrdlborKddN9Z7XvG_Ctz0QeoVCiVrwl4NyUNpXgGh98H3G5YtgKLtZzhkYE4KmvoH2fyQOjjjepT7FT_cHSON5kaX2rGlJjdVzqhQAO1eM0h98gRtc9hOhoes8YFQ"};var cpo = document.createElement('script');cpo.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=93d2f86599df3910';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null, "\/artifacts\/readme-md?__cf_chl_rt_tk=AVtGBm2b.5NavA.6aVRP68_Rp1B_MMLFlS0weM5SprY-1746812304-1.0.1.1-zu3MJLDLoNfOPdY5EV6TKcWTRUV1fsGc6IgPS2n1WIw" + window._cf_chl_opt.cOgUHash);cpo.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(cpo);}());</script></body></html>
+# User Management System
+
+A comprehensive user management backend system built with FastAPI, PostgreSQL, and Docker.
+
+## Features
+
+- **User Registration and Authentication**: Secure user registration with email verification
+- **JWT Authentication**: Secure token-based authentication
+- **Email Service**: Email notifications for account verification and password reset
+- **Database Management**: PostgreSQL with Alembic migrations
+- **Containerization**: Docker and Docker Compose setup for development and deployment
+- **Testing**: Comprehensive testing suite with pytest
+
+## Project Setup
+
+### Prerequisites
+
+- Docker and Docker Compose
+- Git
+- MailTrap account (for email testing)
+
+### Installation Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jffuller8/final_project_user_management.git
+   cd final_project_user_management
+
+Create a .env file in the project root with your MailTrap credentials:
+MAIL_USERNAME=your_mailtrap_username
+MAIL_PASSWORD=your_mailtrap_password
+MAIL_FROM=from@example.com
+MAIL_PORT=2525
+MAIL_SERVER=sandbox.smtp.mailtrap.io
+MAIL_TLS=True
+MAIL_SSL=False
+
+Build and start the Docker containers:
+bashdocker compose up --build
+
+Run the Alembic migrations to set up the database:
+bashdocker compose exec fastapi alembic upgrade head
+
+
+Database Management
+The project uses PostgreSQL as the database and Alembic for migrations.
+PGAdmin Setup
+
+Access PGAdmin at http://localhost:5050
+Login with credentials (from docker-compose.yml):
+
+Email: admin@example.com (or as configured)
+Password: adminpassword (or as configured)
+
+
+Add a new server with these connection details:
+
+Host: postgres
+Port: 5432
+Database: myappdb
+Username: user
+Password: password
+
+
+
+Alembic Commands
+
+Create a new migration:
+bashdocker compose exec fastapi alembic revision --autogenerate -m "description"
+
+Apply migrations:
+bashdocker compose exec fastapi alembic upgrade head
+
+
+API Documentation
+Once the application is running, you can access the API documentation at:
+
+Swagger UI: http://localhost/docs
+ReDoc: http://localhost/redoc
+
+Testing
+Run the tests using pytest:
+bashdocker compose exec fastapi pytest
+For specific test files:
+bashdocker compose exec fastapi pytest tests/test_specific_file.py
+Troubleshooting
+Docker and Database Issues
+If you encounter Alembic synchronization issues:
+
+Drop the Alembic version table in the database
+Run the migration again:
+bashdocker compose exec fastapi alembic upgrade head
+
+
+If you change the database schema:
+
+Delete the Alembic migration
+Delete the Alembic version table
+Delete the users table
+Regenerate the migration:
+bashdocker compose exec fastapi alembic revision --autogenerate -m "initial migration"
+
+
+Deployment
+The project is configured for CI/CD with GitHub Actions and DockerHub.
+Production Environment Setup
+
+Enable GitHub Issues in the repository settings
+Create a production environment in GitHub
+Add DockerHub credentials as environment secrets:
+
+DOCKER_USERNAME: Your DockerHub username
+DOCKER_TOKEN: Your DockerHub access token
