@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from builtins import import ValueError, dict, str
+from builtins import ValueError, dict, str
 from typing import Optional, Dict
 from smtplib import SMTP, SMTPException
 from app.utils.smtp_connection import SMTPClient

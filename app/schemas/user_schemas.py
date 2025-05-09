@@ -1,4 +1,4 @@
-from builtins import import ValueError, any, bool, str
+from builtins import ValueError, any, bool, str
 import re
 from pydantic import BaseModel, EmailStr, Field, validator, root_validator
 from datetime import datetime

@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from enum import Enum
 import uuid
 from sqlalchemy import (
-    Column, String, Integer, DateTime, Boolean, Func, Time as SQLAlchemyTime
+    Column, String, Integer, DateTime, Boolean, func, Time as SQLAlchemyTime
 )
 from sqlalchemy.dialects.postgresql import UUID, ENUM
 from sqlalchemy.orm import Mapped, mapped_column
@@ -20,7 +20,8 @@ class User(Base):
     This class uses SQLAlchemy ORM for mapping attributes to database columns efficiently.
     """
     __tablename__ = "users"
-    __mapper_args__ = {"defaults": True}
+    # Remove the defaults keyword which is causing the error
+    # __mapper_args__ = {"defaults": True}
     
     # Primary attributes
     id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
@@ -41,15 +42,15 @@ class User(Base):
     # User status
     role: Mapped[UserRole] = mapped_column(SQLAlchemyTime(UserRole), name="UserRole", create_constraint=True, nullable=False)
     is_professional: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False)
-    professional_status_updated_at: Mapped[datetime] = mapped_column(DateTime, server_default=Func.now(), nullable=True)
+    professional_status_updated_at: Mapped[datetime] = mapped_column(DateTime, server_default=func.now(), nullable=True)
     
     # Authentication and security
     last_login_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=True)
     failed_login_attempts: Mapped[int] = mapped_column(Integer, default=0)
     is_locked: Mapped[bool] = mapped_column(Boolean, default=False)
     locked_at: Mapped[datetime] = mapped_column(DateTime, nullable=True)  # New field for account lockout
-    created_at: Mapped[datetime] = mapped_column(DateTime, server_default=Func.now(), nullable=False)
-    updated_at: Mapped[datetime] = mapped_column(DateTime, server_default=Func.now(), onupdate=Func.now())
+    created_at: Mapped[datetime] = mapped_column(DateTime, server_default=func.now(), nullable=False)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, server_default=func.now(), onupdate=func.now())
     verification_token: Mapped[str] = mapped_column(String, nullable=True)
     verification_token_created_at: Mapped[datetime] = mapped_column(DateTime, nullable=True)  # New field for token expiration
     
