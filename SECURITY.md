@@ -68,3 +68,13 @@ All security fixes have been thoroughly tested with dedicated standalone tests t
 - Tests for email verification token expiration
 
 These tests ensure that the security fixes work as intended and will continue to work correctly as the codebase evolves.
+
+## Additional Security Considerations for User Profile Management
+
+The new User Profile Management feature has been implemented with the following security considerations:
+
+1. **Input Validation**: All profile fields are validated using Pydantic schemas to prevent malicious data.
+2. **Authorization Controls**: Users can only view and edit their own profiles, unless they have admin privileges.
+3. **Role-Based Access Control**: Only administrators can change a user's professional status.
+4. **Audit Trail**: Professional status changes are timestamped for accountability.
+5. **Data Minimization**: APIs only return and accept necessary profile data.

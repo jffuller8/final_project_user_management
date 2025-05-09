@@ -6,6 +6,7 @@ from app.database import Database
 from app.dependencies import get_settings
 from app.routers import user_routes
 from app.utils.api_description import getDescription
+from app.routes import profile_routes
 app = FastAPI(
     title="User Management",
     description=getDescription(),
@@ -39,4 +40,5 @@ async def exception_handler(request, exc):
 
 app.include_router(user_routes.router)
 
+app.include_router(profile_routes.router, prefix="/api/profile")
 
