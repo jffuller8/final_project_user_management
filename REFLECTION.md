@@ -32,19 +32,19 @@ This project provided a practical, real-world experience in maintaining and impr
 
 I identified and fixed five critical security issues in the user management system:
 
-1. **Duplicate Login Route Handler**: [Link to closed issue #1](#)
+1. **Duplicate Login Route Handler**: 
    - Fixed by removing redundant route, ensuring consistent behavior
 
-2. **Account Lockout with No Recovery**: [Link to closed issue #2](#)
+2. **Account Lockout with No Recovery**: 
    - Implemented auto-unlock after timeout and added account recovery
 
-3. **Permanent Email Verification Tokens**: [Link to closed issue #3](#)
+3. **Permanent Email Verification Tokens**: 
    - Added 48-hour expiration to verification tokens
 
-4. **Weak Password Policy**: [Link to closed issue #4](#)
+4. **Weak Password Policy**: 
    - Added comprehensive password strength validation
 
-5. **No Rate Limiting for Authentication**: [Link to closed issue #5](#)
+5. **No Rate Limiting for Authentication**: 
    - Implemented IP-based rate limiting with exponential backoff
 
 ### New Tests Added
@@ -66,7 +66,7 @@ These tests provide a strong foundation for maintaining the security features ad
 
 ### Feature Implementation
 
-In addition to the security fixes, I implemented a new feature: [Link to feature implementation](#)
+In addition to the security fixes, I implemented a new feature.
 
 The feature enhances user account recovery by providing a secure, time-limited token-based password reset functionality. This includes:
 - Secure token generation for password resets
@@ -89,7 +89,7 @@ This implementation demonstrates my ability to extend the application's function
 
 ### Docker Repository
 
-The application is successfully deployed on DockerHub and can be found here: [Link to Docker repository](#)
+The application is successfully deployed on DockerHub.
 
 ## Challenges and Solutions
 
