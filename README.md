@@ -25,89 +25,107 @@ A comprehensive user management backend system built with FastAPI, PostgreSQL, a
    ```bash
    git clone https://github.com/jffuller8/final_project_user_management.git
    cd final_project_user_management
+   ```
 
-Create a .env file in the project root with your MailTrap credentials:
-MAIL_USERNAME=your_mailtrap_username
-MAIL_PASSWORD=your_mailtrap_password
-MAIL_FROM=from@example.com
-MAIL_PORT=2525
-MAIL_SERVER=sandbox.smtp.mailtrap.io
-MAIL_TLS=True
-MAIL_SSL=False
+2. Create a `.env` file in the project root with your MailTrap credentials:
+   ```
+   MAIL_USERNAME=your_mailtrap_username
+   MAIL_PASSWORD=your_mailtrap_password
+   MAIL_FROM=from@example.com
+   MAIL_PORT=2525
+   MAIL_SERVER=sandbox.smtp.mailtrap.io
+   MAIL_TLS=True
+   MAIL_SSL=False
+   ```
 
-Build and start the Docker containers:
-bashdocker compose up --build
+3. Build and start the Docker containers:
+   ```bash
+   docker compose up --build
+   ```
 
-Run the Alembic migrations to set up the database:
-bashdocker compose exec fastapi alembic upgrade head
+4. Run the Alembic migrations to set up the database:
+   ```bash
+   docker compose exec fastapi alembic upgrade head
+   ```
 
+## Database Management
 
-Database Management
 The project uses PostgreSQL as the database and Alembic for migrations.
-PGAdmin Setup
 
-Access PGAdmin at http://localhost:5050
-Login with credentials (from docker-compose.yml):
+### PGAdmin Setup
 
-Email: admin@example.com (or as configured)
-Password: adminpassword (or as configured)
+1. Access PGAdmin at http://localhost:5050
+2. Login with credentials (from docker-compose.yml):
+   - Email: admin@example.com (or as configured)
+   - Password: adminpassword (or as configured)
+3. Add a new server with these connection details:
+   - Host: postgres
+   - Port: 5432
+   - Database: myappdb
+   - Username: user
+   - Password: password
 
+### Alembic Commands
 
-Add a new server with these connection details:
+- Create a new migration:
+  ```bash
+  docker compose exec fastapi alembic revision --autogenerate -m "description"
+  ```
+- Apply migrations:
+  ```bash
+  docker compose exec fastapi alembic upgrade head
+  ```
 
-Host: postgres
-Port: 5432
-Database: myappdb
-Username: user
-Password: password
+## API Documentation
 
-
-
-Alembic Commands
-
-Create a new migration:
-bashdocker compose exec fastapi alembic revision --autogenerate -m "description"
-
-Apply migrations:
-bashdocker compose exec fastapi alembic upgrade head
-
-
-API Documentation
 Once the application is running, you can access the API documentation at:
+- Swagger UI: http://localhost/docs
+- ReDoc: http://localhost/redoc
 
-Swagger UI: http://localhost/docs
-ReDoc: http://localhost/redoc
+## Testing
 
-Testing
 Run the tests using pytest:
-bashdocker compose exec fastapi pytest
+```bash
+docker compose exec fastapi pytest
+```
+
 For specific test files:
-bashdocker compose exec fastapi pytest tests/test_specific_file.py
-Troubleshooting
-Docker and Database Issues
+```bash
+docker compose exec fastapi pytest tests/test_specific_file.py
+```
+
+## Troubleshooting
+
+### Docker and Database Issues
+
 If you encounter Alembic synchronization issues:
-
-Drop the Alembic version table in the database
-Run the migration again:
-bashdocker compose exec fastapi alembic upgrade head
-
+1. Drop the Alembic version table in the database
+2. Run the migration again:
+   ```bash
+   docker compose exec fastapi alembic upgrade head
+   ```
 
 If you change the database schema:
+1. Delete the Alembic migration
+2. Delete the Alembic version table
+3. Delete the users table
+4. Regenerate the migration:
+   ```bash
+   docker compose exec fastapi alembic revision --autogenerate -m "initial migration"
+   ```
 
-Delete the Alembic migration
-Delete the Alembic version table
-Delete the users table
-Regenerate the migration:
-bashdocker compose exec fastapi alembic revision --autogenerate -m "initial migration"
+## Deployment
 
-
-Deployment
 The project is configured for CI/CD with GitHub Actions and DockerHub.
-Production Environment Setup
 
-Enable GitHub Issues in the repository settings
-Create a production environment in GitHub
-Add DockerHub credentials as environment secrets:
+### Production Environment Setup
 
-DOCKER_USERNAME: Your DockerHub username
-DOCKER_TOKEN: Your DockerHub access token
+1. Enable GitHub Issues in the repository settings
+2. Create a production environment in GitHub
+3. Add DockerHub credentials as environment secrets:
+   - DOCKER_USERNAME: Your DockerHub username
+   - DOCKER_TOKEN: Your DockerHub access token
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.txt file for details.
